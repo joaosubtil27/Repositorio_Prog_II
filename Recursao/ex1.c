@@ -18,7 +18,7 @@ int main()
     {
         i++;
     }
-    palavras[i+1]=EOF;
+    palavras[i+1] = '\0';
     ImprimeInvertido(palavras);
 }
 
@@ -26,20 +26,24 @@ void ImprimeInvertido(char *string)
 {
     int i;
 
-    while (string[inicio_p2] != ' ' && string[inicio_p2] != EOF)
+    while (string[inicio_p2] != ' ')
     {   
         inicio_p2++;
     }
 
     for (i = inicio_p2; i >= fim_p1; i--)
-    {
+    {   if (inicio_p2 != '\0')
         printf("%c", string[i]);
+
+        else
+        printf("%c", string[i-1]);
     }
     
-    if (string[inicio_p2+1] != EOF)
+    if (string[inicio_p2+1] != '\0')
     {
         fim_p1 = inicio_p2;
         inicio_p2++;
+        
         ImprimeInvertido(string);
     }
 }
