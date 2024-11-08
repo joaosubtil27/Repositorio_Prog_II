@@ -44,6 +44,6 @@ int ContaOcorrencias(int *vet, int numElementos, int numeroProcurado)
             qnt_iguais++;
 
         elem_lidos++;
-        SomaElementosPares(vet, numElementos);
+        ContaOcorrencias(vet, numElementos, numeroProcurado);
     }
 }
