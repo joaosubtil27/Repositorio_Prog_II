@@ -1,30 +1,13 @@
 main.c: In function ‘main’:
-main.c:12:12: warning: unused variable ‘j’ [-Wunused-variable]
-   12 |     int i, j;
+main.c:21:17: warning: unused variable ‘qual_matrix’ [-Wunused-variable]
+   21 |     int scalar, qual_matrix;
+      |                 ^~~~~~~~~~~
+main.c:21:9: warning: unused variable ‘scalar’ [-Wunused-variable]
+   21 |     int scalar, qual_matrix;
+      |         ^~~~~~
+main.c:20:12: warning: unused variable ‘j’ [-Wunused-variable]
+   20 |     int i, j;
       |            ^
-main.c:12:9: warning: unused variable ‘i’ [-Wunused-variable]
-   12 |     int i, j;
+main.c:20:9: warning: unused variable ‘i’ [-Wunused-variable]
+   20 |     int i, j;
       |         ^
-matrix_utils.c: In function ‘matrix_read’:
-matrix_utils.c:11:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   11 |             scanf("%d", &matrix[i][j]);
-      |             ^~~~~
-matrix_utils.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-    1 | #include "matrix_utils.h"
-  +++ |+#include <stdio.h>
-    2 | 
-matrix_utils.c:11:13: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
-   11 |             scanf("%d", &matrix[i][j]);
-      |             ^~~~~
-matrix_utils.c:11:13: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
-matrix_utils.c: In function ‘matrix_print’:
-matrix_utils.c:24:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   24 |             printf("%d", matrix[i][j]);
-      |             ^~~~~~
-matrix_utils.c:24:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-matrix_utils.c:24:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
-matrix_utils.c:24:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-matrix_utils.c: At top level:
-matrix_utils.c:123:2: error: #endif without #if
-  123 | #endif
-      |  ^~~~~

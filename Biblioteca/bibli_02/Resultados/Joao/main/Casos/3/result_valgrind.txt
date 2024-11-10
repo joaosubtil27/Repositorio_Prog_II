@@ -1,19 +1,19 @@
-==141984== Memcheck, a memory error detector
-==141984== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==141984== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==141984== Command: Resultados/Joao/main/prog Resultados/Joao/main/Casos/3
-==141984== Parent PID: 141983
-==141984== 
-==141984== Conditional jump or move depends on uninitialised value(s)
-==141984==    at 0x1095E6: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/main/prog)
-==141984== 
-==141984== 
-==141984== HEAP SUMMARY:
-==141984==     in use at exit: 0 bytes in 0 blocks
-==141984==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==141984== 
-==141984== All heap blocks were freed -- no leaks are possible
-==141984== 
-==141984== Use --track-origins=yes to see where uninitialised values come from
-==141984== For lists of detected and suppressed errors, rerun with: -s
-==141984== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==67817== Memcheck, a memory error detector
+==67817== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==67817== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==67817== Command: Resultados/Joao/main/prog Resultados/Joao/main/Casos/3
+==67817== Parent PID: 67816
+==67817== 
+==67817== Conditional jump or move depends on uninitialised value(s)
+==67817==    at 0x109443: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/main/prog)
+==67817== 
+==67817== 
+==67817== HEAP SUMMARY:
+==67817==     in use at exit: 0 bytes in 0 blocks
+==67817==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==67817== 
+==67817== All heap blocks were freed -- no leaks are possible
+==67817== 
+==67817== Use --track-origins=yes to see where uninitialised values come from
+==67817== For lists of detected and suppressed errors, rerun with: -s
+==67817== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

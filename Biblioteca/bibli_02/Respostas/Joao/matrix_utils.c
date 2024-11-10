@@ -1,5 +1,5 @@
 #include "matrix_utils.h"
-
+#include <stdio.h>
 void matrix_read(int rows, int cols, int matrix[rows][cols])
 {
     int i, j;
@@ -21,9 +21,18 @@ void matrix_print(int rows, int cols, int matrix[rows][cols])
     {
         for (j = 0; j < cols; j++)
         {
-            printf("%d", matrix[i][j]);
+            if (j == 0)
+                printf("|%d", matrix[i][j]);
+
+            else if (j > 0 && j < cols - 1)
+                printf(" %d", matrix[i][j]);
+
+            else
+                printf(" %d|", matrix[i][j]);
         }
+        printf("\n");
     }
+    printf("\n");
 }
 
 int possible_matrix_sum(int rows1, int cols1, int rows2, int cols2)
@@ -80,14 +89,22 @@ void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 
 void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols2])
 {
-    int i, j;
-
-    for (i = 0; i < rows1; i++)
+    int i1, j1;
+    int i2, j2;
+    for (i1 = 0; i1 < rows1; i1++)
     {
-        for (j = 0; j < cols1; j++)
+        for (j2 = 0; j2 < cols2; j2++)
         {
-
-            result[i][j] += matrix1[i][j] * matrix2[j][i];
+            for (j1 = 0; j1 < cols1; j1++)
+            {
+                for (i2 = 0; i2 < rows2; i2++)
+                {
+                    if (j1 == i2)
+                    {
+                        result[i1][j2] += matrix1[i1][j1] * matrix2[i2][j2];
+                    }
+                }
+            }
         }
     }
 }
@@ -95,7 +112,6 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
 void transpose_matrix(int rows, int cols, int matrix[rows][cols], int result[cols][rows])
 {
     int i, j;
-
     for (i = 0; i < rows; i++)
     {
         for (j = 0; j < cols; j++)
@@ -114,10 +130,7 @@ void scalar_multiply(int rows, int cols, int matrix[rows][cols], int scalar)
     {
         for (j = 0; j < cols; j++)
         {
-
             matrix[i][j] = scalar * matrix[i][j];
         }
     }
 }
-
-#endif

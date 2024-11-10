@@ -1,0 +1,93 @@
+==68093== Memcheck, a memory error detector
+==68093== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==68093== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==68093== Command: Resultados/Joao/completo/prog Resultados/Joao/completo/Casos/2
+==68093== Parent PID: 68092
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x109443: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109AC2: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Use of uninitialised value of size 8
+==68093==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==68093==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109AC2: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==68093==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109AC2: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109AC2: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109AC2: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D6AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109B4E: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Use of uninitialised value of size 8
+==68093==    at 0x48BA2EB: _itoa_word (_itoa.c:177)
+==68093==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109B4E: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48BA2FC: _itoa_word (_itoa.c:177)
+==68093==    by 0x48D5ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109B4E: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D65C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109B4E: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== Conditional jump or move depends on uninitialised value(s)
+==68093==    at 0x48D5C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==68093==    by 0x48C079E: printf (printf.c:33)
+==68093==    by 0x109B4E: matrix_print (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x109777: terceiraOpcao (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093==    by 0x10938F: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/completo/prog)
+==68093== 
+==68093== 
+==68093== HEAP SUMMARY:
+==68093==     in use at exit: 0 bytes in 0 blocks
+==68093==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==68093== 
+==68093== All heap blocks were freed -- no leaks are possible
+==68093== 
+==68093== Use --track-origins=yes to see where uninitialised values come from
+==68093== For lists of detected and suppressed errors, rerun with: -s
+==68093== ERROR SUMMARY: 33 errors from 11 contexts (suppressed: 0 from 0)

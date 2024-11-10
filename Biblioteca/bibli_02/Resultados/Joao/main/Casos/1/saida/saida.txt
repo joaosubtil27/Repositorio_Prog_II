@@ -4,7 +4,8 @@
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |2 4|
+Opcao escolhida: 
+|2 4|
 |11 12|
 
 1 - Somar matrizes
@@ -13,8 +14,9 @@ Opcao escolhida: |2 4|
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |1 2|
-|3 4|
+Opcao escolhida: 
+|0 0|
+|-5 -4|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
@@ -22,8 +24,9 @@ Opcao escolhida: |1 2|
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |16 288|
-|32 576|
+Opcao escolhida: 
+|17 18|
+|35 38|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
@@ -31,7 +34,8 @@ Opcao escolhida: |16 288|
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |2 4|
+Opcao escolhida: 
+|2 4|
 |16 16|
 
 1 - Somar matrizes
@@ -40,8 +44,12 @@ Opcao escolhida: |2 4|
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |16 32|
-|32 576|
+Opcao escolhida: 
+|1 3|
+|2 4|
+
+|2 16|
+|4 16|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
@@ -49,8 +57,9 @@ Opcao escolhida: |16 32|
 4 - Multiplicacao de uma matriz por escalar
 5 - Transposta de uma matriz
 6 - Encerrar o programa
-Opcao escolhida: |18 36|
-|48 592|
+Opcao escolhida: 
+|3 6|
+|19 20|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
