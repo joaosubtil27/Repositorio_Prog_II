@@ -3,13 +3,9 @@
 
 int verificaDataValida(int dia, int mes, int ano)
 {
-    if ((dia >= 1 && dia <= 31) && (mes >= 1 && mes <= 12) && ano >= 0)
+    if ((dia >= 1 && dia <= numeroDiasMes(mes, ano)) && (mes >= 1 && mes <= 12) && ano >= 0)
     {
-        if (dia <= numeroDiasMes(mes, ano))
-            return 1;
-
-        else
-            return 0;
+        return 1;
     }
     else
         return 0;
@@ -56,9 +52,9 @@ void imprimeMesExtenso(int mes)
 
 void imprimeDataExtenso(int dia, int mes, int ano)
 {
-    printf("%2d de ", dia);
+    printf("%02d de ", dia);
     imprimeMesExtenso(mes);
-    printf(" de %2d\n", ano);
+    printf(" de %02d\n", ano);
 }
 
 int verificaBissexto(int ano)
@@ -92,6 +88,8 @@ int numeroDiasMes(int mes, int ano)
             return 28;
         }
     }
+    else
+        return 0;
 }
 
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
@@ -102,7 +100,7 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
     else if (ano1 < ano2 || (ano1 == ano2 && mes1 < mes2) || (ano1 == ano2 && mes1 == mes2 && dia1 < dia2))
         return 1;
 
-    else if (dia1 == dia2 && mes1 == mes2 && ano1 == ano2)
+    else
         return 0;
 }
 
@@ -120,68 +118,109 @@ int calculaDiasAteMes(int mes, int ano)
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
 {
     int soma = 0;
+    if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1)
+    {
+        if (ano1 < ano2)
+        {
+            for (int i = ano1 + 1; i < ano2; i++)
+            {
+                soma += 365;
+                if (verificaBissexto(i) == 1)
+                {
+                    soma += 1;
+                }
+            }
+        }
+
+        if (mes1 < mes2)
+        {
+            if (ano1 == ano2)
+            {
+                for (int i = mes1 + 1; i < mes2; i++)
+                {
+                    soma += numeroDiasMes(i, ano1);
+                }
+                soma += numeroDiasMes(mes1, ano1) - dia1;
+                soma += dia2;
+            }
+            else
+            {
+                soma += calculaDiasAteMes(mes1, ano1) - dia1;
+                for (int i = 1; i < mes2; i++)
+                {
+                    soma += numeroDiasMes(i, ano2);
+                }
+                soma += dia2;
+            }
+        }
+
+        else if (mes1 > mes2)
+        {
+
+            soma += calculaDiasAteMes(mes1, ano1) - dia1;
+            for (int i = 1; i < mes2; i++)
+            {
+                soma += numeroDiasMes(i, ano2) + dia2;
+            }
+        }
+
+        else if (mes1 == mes2)
+        {
+            soma += dia2 - dia1;
+        }
+    }
 
     if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == -1)
     {
-        soma += numeroDiasMes(mes2, ano2) - dia2;
-        if (ano1 == ano2)
+        if (ano2 < ano1)
         {
-            for (int i = mes2 + 1; i < mes1; i++)
-            {
-                soma += numeroDiasMes(i, ano1);
-            }
-            soma += dia1;
-        }
-        if (ano1 > ano2)
-        {
-            soma += calculaDiasAteMes(mes2, ano2);
-
             for (int i = ano2 + 1; i < ano1; i++)
             {
-                for (int j = 1; j <= 12; j++)
+                soma += 365;
+                if (verificaBissexto(i) == 1)
                 {
-                    soma += numeroDiasMes(j, i);
+                    soma += 1;
                 }
             }
+        }
 
+        if (mes2 < mes1)
+        {
+            if (ano1 == ano2)
+            {
+                for (int i = mes2 + 1; i < mes1; i++)
+                {
+                    soma += numeroDiasMes(i, ano1);
+                }
+                soma += numeroDiasMes(mes2, ano1) - dia2;
+                soma += dia1;
+            }
+            else
+            {
+                soma += calculaDiasAteMes(mes2, ano2) - dia2;
+                for (int i = 1; i < mes1; i++)
+                {
+                    soma += numeroDiasMes(i, ano1) + dia1;
+                }
+            }
+        }
+
+        else if (mes2 > mes1)
+        {
+
+            soma += calculaDiasAteMes(mes2, ano2) - dia2;
             for (int i = 1; i < mes1; i++)
             {
-                soma += numeroDiasMes(i, ano1);
+                soma += numeroDiasMes(i, ano1) + dia1;
             }
-            soma += dia1;
+        }
+
+        else if (mes1 == mes2)
+        {
+            soma += dia1 - dia2;
         }
     }
 
-    if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1)
-    {
-        soma += numeroDiasMes(mes2, ano2) - dia2;
-        if (ano1 == ano2)
-        {
-            for (int i = mes2 + 1; i < mes1; i++)
-            {
-                soma += numeroDiasMes(i, ano1);
-            }
-            soma += dia1;
-        }
-        if (ano1 > ano2)
-        {
-            soma += calculaDiasAteMes(mes2, ano2);
-
-            for (int i = ano2 + 1; i < ano1; i++)
-            {
-                for (int j = 1; j <= 12; j++)
-                {
-                    soma += numeroDiasMes(j, i);
-                }
-            }
-
-            for (int i = 1; i < mes1; i++)
-            {
-                soma += numeroDiasMes(i, ano1);
-            }
-            soma += dia1;
-        }
-    }
     if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 0)
         soma = 0;
 

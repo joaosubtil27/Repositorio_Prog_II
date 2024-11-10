@@ -7,7 +7,7 @@ int main()
     int dia1, mes1, ano1;
     int dia2, mes2, ano2;
 
-    scanf("%d/%d/%d ", &dia1, &mes1, &ano1);
+    scanf("%d/%d/%d", &dia1, &mes1, &ano1);
     scanf("%d/%d/%d", &dia2, &mes2, &ano2);
 
     if (verificaDataValida(dia1, mes1, ano1) == 1 && verificaDataValida(dia2, mes2, ano2) == 1)
