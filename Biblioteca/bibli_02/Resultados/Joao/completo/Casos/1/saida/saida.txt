@@ -26,7 +26,7 @@ Opcao escolhida:
 6 - Encerrar o programa
 Opcao escolhida: 
 |17 18|
-|30 34|
+|35 38|
 
 1 - Somar matrizes
 2 - Subtrair matrizes

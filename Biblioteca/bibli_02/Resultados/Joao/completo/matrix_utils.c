@@ -91,6 +91,14 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
 {
     int i1, j1;
     int i2, j2;
+
+    for (int i = 0; i < rows1; i++)
+    {
+        for (int j = 0; j < cols2; j++)
+        {
+            result[i][j] = 0;
+        }
+    }
     for (i1 = 0; i1 < rows1; i1++)
     {
         for (j2 = 0; j2 < cols2; j2++)

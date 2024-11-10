@@ -23,8 +23,8 @@ Erro: as dimensoes da matriz nao correspondem
 5 - Transposta de uma matriz
 6 - Encerrar o programa
 Opcao escolhida: 
-|-16778006 95|
-|1088407 154|
+|58 64|
+|139 154|
 
 1 - Somar matrizes
 2 - Subtrair matrizes
@@ -57,8 +57,8 @@ Opcao escolhida:
 5 - Transposta de uma matriz
 6 - Encerrar o programa
 Opcao escolhida: 
-|-16777832 287|
-|1088824 616|
+|232 256|
+|556 616|
 
 1 - Somar matrizes
 2 - Subtrair matrizes

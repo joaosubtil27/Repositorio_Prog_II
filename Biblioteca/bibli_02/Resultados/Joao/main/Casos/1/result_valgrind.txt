@@ -1,19 +1,15 @@
-==67558== Memcheck, a memory error detector
-==67558== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==67558== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==67558== Command: Resultados/Joao/main/prog Resultados/Joao/main/Casos/1
-==67558== Parent PID: 67557
-==67558== 
-==67558== Conditional jump or move depends on uninitialised value(s)
-==67558==    at 0x109443: main (in /home/jaasubtil/Prog II/Repositorio_Prog_II/Biblioteca/bibli_02/Resultados/Joao/main/prog)
-==67558== 
-==67558== 
-==67558== HEAP SUMMARY:
-==67558==     in use at exit: 0 bytes in 0 blocks
-==67558==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==67558== 
-==67558== All heap blocks were freed -- no leaks are possible
-==67558== 
-==67558== Use --track-origins=yes to see where uninitialised values come from
-==67558== For lists of detected and suppressed errors, rerun with: -s
-==67558== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==51443== Memcheck, a memory error detector
+==51443== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==51443== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==51443== Command: Resultados/Joao/main/prog Resultados/Joao/main/Casos/1
+==51443== Parent PID: 51442
+==51443== 
+==51443== 
+==51443== HEAP SUMMARY:
+==51443==     in use at exit: 0 bytes in 0 blocks
+==51443==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==51443== 
+==51443== All heap blocks were freed -- no leaks are possible
+==51443== 
+==51443== For lists of detected and suppressed errors, rerun with: -s
+==51443== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
