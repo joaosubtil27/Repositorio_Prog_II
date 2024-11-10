@@ -1,0 +1,55 @@
+1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: 1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: 1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: |51 4524 139|
+|122 5 6|
+
+1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: |204 18096 556|
+|488 20 24|
+
+1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: |204 488 488|
+|20 488 24|
+
+1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: |9760 864736 4796|
+|5168 488 24|
+
+1 - Somar matrizes
+2 - Subtrair matrizes
+3 - Multiplicar matrizes
+4 - Multiplicacao de uma matriz por escalar
+5 - Transposta de uma matriz
+6 - Encerrar o programa
+Opcao escolhida: 
