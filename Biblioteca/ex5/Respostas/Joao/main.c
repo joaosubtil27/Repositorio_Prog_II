@@ -4,17 +4,22 @@
 
 void imprimeTexto();
 
+char str[150], dest[150];
+
 int main()
 {
     int i = 0;
     int opcao = 0;
-    char str[100], dest[100];
 
-    while (scanf("%c", &str[i]) != '\n')
+    while (1)
     {
+        scanf("%c", &str[i]);
+        if (str[i] == '\n')
+            break;
         i++;
     }
-    imprimeTexto();
+    str[i+1] = '\0';
+
     while (opcao != 6)
     {
         imprimeTexto();
@@ -29,6 +34,14 @@ int main()
         {
             printf("String copiada: ");
             string_copy(str, dest);
+
+            i = 0;
+            while (str[i] != '\n')
+            {
+                printf("%c", dest[i]);
+                i++;
+            }
+
             printf("\n\n");
         }
 
@@ -36,13 +49,26 @@ int main()
         {
             printf("String convertida para maiusculas: ");
             string_upper(str);
+
+            i = 0;
+            while (str[i] != '\n')
+            {
+                printf("%c", str[i]);
+                i++;
+            }
             printf("\n\n");
         }
 
         else if (opcao == 4)
         {
-            printf("String convertida para minusuclas: ");
+            printf("String convertida para minusculas: ");
             string_lower(str);
+            i = 0;
+            while (str[i] != '\n')
+            {
+                printf("%c", str[i]);
+                i++;
+            }
             printf("\n\n");
         }
 
@@ -50,6 +76,12 @@ int main()
         {
             printf("String invertida: ");
             string_reverse(str);
+            i = 0;
+            while (str[i] != '\n')
+            {
+                printf("%c", str[i]);
+                i++;
+            }
             printf("\n\n");
         }
 

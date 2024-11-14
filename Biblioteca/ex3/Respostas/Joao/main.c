@@ -18,10 +18,10 @@ int main()
         printf("Segunda data: ");
         imprimeDataExtenso(dia2, mes2, ano2);
 
-        if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1)
+        if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == -1)
             printf("A primeira data eh mais antiga\n");
 
-        else if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == -1)
+        else if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1)
             printf("A segunda data eh mais antiga\n");
 
         else if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 0)

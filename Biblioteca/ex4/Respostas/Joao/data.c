@@ -1,5 +1,3 @@
-#include "data.h"
-#include <stdio.h>
 
 int verificaDataValida(int dia, int mes, int ano)
 {
@@ -9,6 +7,12 @@ int verificaDataValida(int dia, int mes, int ano)
     }
     else
         return 0;
+}
+
+void imprimeData(int dia, int mes, int ano)
+{
+
+    printf("%02d/%02d/%04d", dia, mes, ano);
 }
 
 void imprimeMesExtenso(int mes)
@@ -110,6 +114,7 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
 
 int calculaDiasAteMes(int mes, int ano)
 {
+
     int soma = 0;
     int i;
     for (i = mes; i <= 12; i++)
@@ -204,4 +209,21 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
         soma = 0;
 
     return soma;
+}
+
+void imprimeProximaData(int dia, int mes, int ano)
+{
+    dia++;
+    if (dia > numeroDiasMes(mes, ano))
+    {
+        dia = 1;
+        mes++;
+    }
+    if (mes > 12)
+    {
+        mes = 1;
+        ano++;
+    }
+
+    imprimeData(dia, mes, ano);
 }
