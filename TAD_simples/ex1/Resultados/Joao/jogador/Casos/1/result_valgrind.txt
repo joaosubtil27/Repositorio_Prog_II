@@ -1,0 +1,6 @@
+==157367== Memcheck, a memory error detector
+==157367== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==157367== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==157367== Command: Resultados/Joao/jogador/prog Resultados/Joao/jogador/Casos/1
+==157367== Parent PID: 157366
+==157367== 

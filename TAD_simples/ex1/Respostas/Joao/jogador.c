@@ -38,11 +38,14 @@ tJogador CriaJogador(int idJogador)
  *
  * @return o tabuleiro atualizado com a jogada do jogador.
  */
-tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
+tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
+{
+    if (jogador.id == ID_JOGADOR_1)
+        tabuleiro.peca1 = 'X';
+    if (jogador.id == ID_JOGADOR_2)
+        tabuleiro.peca2 = '0';
 
-
-//PRESTAR ATENCAO AQUI
-
+    return tabuleiro;
 }
 
 /**
@@ -108,7 +111,7 @@ int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro)
             }
         }
     }
-    
+
     return 0;
 }
 
