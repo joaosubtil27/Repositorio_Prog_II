@@ -1,0 +1,22 @@
+candidato.c: In function ‘LeCandidato’:
+candidato.c:55:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   55 |     scanf("%*c");
+      |     ^~~~~
+candidato.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | 
+candidato.c:55:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   55 |     scanf("%*c");
+      |     ^~~~~
+candidato.c:55:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+candidato.c: In function ‘ImprimeCandidato’:
+candidato.c:165:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  165 |         printf("%c", candidato.nome[i]);
+      |         ^~~~~~
+candidato.c:165:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+candidato.c:165:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+candidato.c:165:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+candidato.c:170:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  170 |     printf(" (");
+      |     ^~~~~~
+candidato.c:170:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
