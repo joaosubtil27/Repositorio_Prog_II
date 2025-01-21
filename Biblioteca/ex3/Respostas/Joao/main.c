@@ -1,7 +1,6 @@
 #include "data.h"
 #include <stdio.h>
 #include <stdlib.h>
-//AINDA NAO ESTA DANDO CERTO
 int main()
 {
     int dia1, mes1, ano1;
