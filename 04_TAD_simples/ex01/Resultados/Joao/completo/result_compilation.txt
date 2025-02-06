@@ -1,0 +1,75 @@
+jogada.c: In function ‘LeJogada’:
+jogada.c:19:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   19 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | #ifndef _JOGADA_H
+jogada.c:19:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   19 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:19:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogada.c:20:22: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   20 |     jogada.sucesso = scanf("%d %d", &jogada.x, &jogada.y);
+      |                      ^~~~~
+jogada.c:20:22: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogada.c:20:22: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogada.c:20:22: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogada.c:22:22: warning: implicit declaration of function ‘FoiJogadaBemSucedida’ [-Wimplicit-function-declaration]
+   22 |     jogada.sucesso = FoiJogadaBemSucedida(jogada);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+jogada.c: In function ‘FoiJogadaBemSucedida’:
+jogada.c:64:1: warning: control reaches end of non-void function [-Wreturn-type]
+   64 | }
+      | ^
+jogo.c: In function ‘AcabouJogo’:
+jogo.c:50:34: warning: the comparison will always evaluate as ‘false’ for the address of ‘TemPosicaoLivreTabuleiro’ will never be NULL [-Waddress]
+   50 |     if (TemPosicaoLivreTabuleiro == 0)
+      |                                  ^~
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:64:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   64 |     scanf("%c", &c);
+      |     ^~~~~
+jogo.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    4 | #include "jogador.h"
+  +++ |+#include <stdio.h>
+    5 | #include "tabuleiro.h"
+jogo.c:64:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   64 |     scanf("%c", &c);
+      |     ^~~~~
+jogo.c:64:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+   70 | }
+      | ^
+main.c: In function ‘main’:
+main.c:85:17: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   85 |                 exit(0);
+      |                 ^~~~
+main.c:6:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    5 | #include "jogo.h"
+  +++ |+#include <stdlib.h>
+    6 | 
+main.c:85:17: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   85 |                 exit(0);
+      |                 ^~~~
+main.c:85:17: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
+tabuleiro.c:91:9: warning: implicit declaration of function ‘EstaLivrePosicaoTabuleiro’; did you mean ‘MarcaPosicaoTabuleiro’? [-Wimplicit-function-declaration]
+   91 |     if (EstaLivrePosicaoTabuleiro(tabuleiro, x, y) == 0)
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |         MarcaPosicaoTabuleiro
+tabuleiro.c: In function ‘ImprimeTabuleiro’:
+tabuleiro.c:144:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  144 |             printf("%c", tabuleiro.posicoes[i][j]);
+      |             ^~~~~~
+tabuleiro.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | #ifndef _TABULEIRO_H
+tabuleiro.c:144:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  144 |             printf("%c", tabuleiro.posicoes[i][j]);
+      |             ^~~~~~
+tabuleiro.c:144:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+tabuleiro.c:146:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  146 |         printf("\n");
+      |         ^~~~~~
+tabuleiro.c:146:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

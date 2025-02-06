@@ -1,0 +1,151 @@
+locadora.c:7:16: error: redefinition of ‘struct Locadora’
+    7 | typedef struct Locadora
+      |                ^~~~~~~~
+In file included from locadora.c:3:
+locadora.h:9:16: note: originally defined here
+    9 | typedef struct Locadora {
+      |                ^~~~~~~~
+locadora.c:12:3: error: conflicting types for ‘tLocadora’; have ‘struct Locadora’
+   12 | } tLocadora;
+      |   ^~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:13:3: note: previous declaration of ‘tLocadora’ with type ‘tLocadora’ {aka ‘struct Locadora’}
+   13 | } tLocadora;
+      |   ^~~~~~~~~
+locadora.c:18:11: error: conflicting types for ‘criarLocadora’; have ‘tLocadora()’ {aka ‘struct Locadora()’}
+   18 | tLocadora criarLocadora()
+      |           ^~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:19:11: note: previous declaration of ‘criarLocadora’ with type ‘tLocadora()’ {aka ‘struct Locadora()’}
+   19 | tLocadora criarLocadora ();
+      |           ^~~~~~~~~~~~~
+locadora.c:33:5: error: conflicting types for ‘verificarFilmeCadastrado’; have ‘int(tLocadora,  int)’ {aka ‘int(struct Locadora,  int)’}
+   33 | int verificarFilmeCadastrado(tLocadora locadora, int codigo)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:27:5: note: previous declaration of ‘verificarFilmeCadastrado’ with type ‘int(tLocadora,  int)’ {aka ‘int(struct Locadora,  int)’}
+   27 | int verificarFilmeCadastrado (tLocadora locadora, int codigo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+locadora.c:51:11: error: conflicting types for ‘cadastrarFilmeLocadora’; have ‘tLocadora(tLocadora,  tFilme)’ {aka ‘struct Locadora(struct Locadora,  struct Filme)’}
+   51 | tLocadora cadastrarFilmeLocadora(tLocadora locadora, tFilme filme)
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:35:11: note: previous declaration of ‘cadastrarFilmeLocadora’ with type ‘tLocadora(tLocadora,  tFilme)’ {aka ‘struct Locadora(struct Locadora,  struct Filme)’}
+   35 | tLocadora cadastrarFilmeLocadora (tLocadora locadora, tFilme filme);
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘cadastrarFilmeLocadora’:
+locadora.c:60:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   60 |     printf ("Filme ja cadastrado no estoque\n");
+      |     ^~~~~~
+locadora.c:4:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    3 | #include "locadora.h"
+  +++ |+#include <stdio.h>
+    4 | 
+locadora.c:60:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   60 |     printf ("Filme ja cadastrado no estoque\n");
+      |     ^~~~~~
+locadora.c:60:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:69:11: error: conflicting types for ‘lerCadastroLocadora’; have ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+   69 | tLocadora lerCadastroLocadora(tLocadora locadora)
+      |           ^~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:42:11: note: previous declaration of ‘lerCadastroLocadora’ with type ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+   42 | tLocadora lerCadastroLocadora (tLocadora locadora);
+      |           ^~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘lerCadastroLocadora’:
+locadora.c:73:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   73 |         printf("Filme cadastrado %d - %s\n", locadora.filme[i].codigo, locadora.filme[i].nome);
+      |         ^~~~~~
+locadora.c:73:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:84:11: error: conflicting types for ‘alugarFilmesLocadora’; have ‘tLocadora(tLocadora,  int *, int)’ {aka ‘struct Locadora(struct Locadora,  int *, int)’}
+   84 | tLocadora alugarFilmesLocadora(tLocadora locadora, int *codigos, int quantidadeCodigos)
+      |           ^~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:51:11: note: previous declaration of ‘alugarFilmesLocadora’ with type ‘tLocadora(tLocadora,  int *, int)’ {aka ‘struct Locadora(struct Locadora,  int *, int)’}
+   51 | tLocadora alugarFilmesLocadora (tLocadora locadora, int* codigos, int quantidadeCodigos);
+      |           ^~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘alugarFilmesLocadora’:
+locadora.c:100:21: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  100 |                     printf("Filme %d - %s nao disponivel no estoque. Volte mais tarde.\n", locadora.filme[j].codigo, locadora.filme[j].nome);
+      |                     ^~~~~~
+locadora.c:100:21: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c:105:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  105 |         printf ("Filme %d nao cadastrado.\n", codigos[i]);
+      |         ^~~~~~
+locadora.c:105:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:115:11: error: conflicting types for ‘lerAluguelLocadora’; have ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+  115 | tLocadora lerAluguelLocadora(tLocadora locadora)
+      |           ^~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:58:11: note: previous declaration of ‘lerAluguelLocadora’ with type ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+   58 | tLocadora lerAluguelLocadora (tLocadora locadora);
+      |           ^~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘lerAluguelLocadora’:
+locadora.c:124:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  124 |     printf("Total de filmes alugados: %d com custo de R$%d", qntAlugados, valor);
+      |     ^~~~~~
+locadora.c:124:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:135:11: error: conflicting types for ‘devolverFilmesLocadora’; have ‘tLocadora(tLocadora,  int *, int)’ {aka ‘struct Locadora(struct Locadora,  int *, int)’}
+  135 | tLocadora devolverFilmesLocadora(tLocadora locadora, int *codigos, int quantidadeCodigos)
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:67:11: note: previous declaration of ‘devolverFilmesLocadora’ with type ‘tLocadora(tLocadora,  int *, int)’ {aka ‘struct Locadora(struct Locadora,  int *, int)’}
+   67 | tLocadora devolverFilmesLocadora (tLocadora locadora, int* codigos, int quantidadeCodigos);
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘devolverFilmesLocadora’:
+locadora.c:145:17: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  145 |                 printf("Filme %d - %s Devolvido!", locadora.filme[j].codigo, locadora.filme[j].nome);
+      |                 ^~~~~~
+locadora.c:145:17: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:157:11: error: conflicting types for ‘lerDevolucaoLocadora’; have ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+  157 | tLocadora lerDevolucaoLocadora(tLocadora locadora)
+      |           ^~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:74:11: note: previous declaration of ‘lerDevolucaoLocadora’ with type ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+   74 | tLocadora lerDevolucaoLocadora (tLocadora locadora);
+      |           ^~~~~~~~~~~~~~~~~~~~
+locadora.c:167:11: error: conflicting types for ‘ordenarFilmesLocadora’; have ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+  167 | tLocadora ordenarFilmesLocadora(tLocadora locadora)
+      |           ^~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:81:11: note: previous declaration of ‘ordenarFilmesLocadora’ with type ‘tLocadora(tLocadora)’ {aka ‘struct Locadora(struct Locadora)’}
+   81 | tLocadora ordenarFilmesLocadora (tLocadora locadora);
+      |           ^~~~~~~~~~~~~~~~~~~~~
+locadora.c:189:6: error: conflicting types for ‘consultarEstoqueLocadora’; have ‘void(tLocadora)’ {aka ‘void(struct Locadora)’}
+  189 | void consultarEstoqueLocadora(tLocadora locadora)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:87:6: note: previous declaration of ‘consultarEstoqueLocadora’ with type ‘void(tLocadora)’ {aka ‘void(struct Locadora)’}
+   87 | void consultarEstoqueLocadora (tLocadora locadora);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘consultarEstoqueLocadora’:
+locadora.c:191:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  191 |     printf("~ESTOQUE~\n");
+      |     ^~~~~~
+locadora.c:191:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: At top level:
+locadora.c:202:6: error: conflicting types for ‘consultarLucroLocadora’; have ‘void(tLocadora)’ {aka ‘void(struct Locadora)’}
+  202 | void consultarLucroLocadora(tLocadora locadora)
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+In file included from locadora.c:3:
+locadora.h:93:6: note: previous declaration of ‘consultarLucroLocadora’ with type ‘void(tLocadora)’ {aka ‘void(struct Locadora)’}
+   93 | void consultarLucroLocadora (tLocadora locadora);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+locadora.c: In function ‘consultarLucroLocadora’:
+locadora.c:204:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  204 |     printf("Lucro total R$ %d\n", locadora.lucro);
+      |     ^~~~~~
+locadora.c:204:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+locadora.c: In function ‘lerCadastroLocadora’:
+locadora.c:75:1: warning: control reaches end of non-void function [-Wreturn-type]
+   75 | }
+      | ^
+locadora.c: In function ‘lerDevolucaoLocadora’:
+locadora.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+  160 | }
+      | ^

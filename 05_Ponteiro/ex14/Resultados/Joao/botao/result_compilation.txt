@@ -1,0 +1,46 @@
+botao.c: In function ‘SetarTexto’:
+botao.c:34:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   34 |         exit(0);
+      |         ^~~~
+botao.c:5:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    4 | #include <string.h>
+  +++ |+#include <stdlib.h>
+    5 | 
+botao.c:34:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   34 |         exit(0);
+      |         ^~~~
+botao.c:34:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+botao.c: In function ‘SetarTamFonte’:
+botao.c:49:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   49 |         exit(0);
+      |         ^~~~
+botao.c:49:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+botao.c: In function ‘ExecutaBotao’:
+botao.c:107:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  107 |             printf("- Executando o botao com evento de click\n");
+      |             ^~~~~~
+botao.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include <string.h>
+  +++ |+#include <stdio.h>
+    5 | 
+botao.c:107:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  107 |             printf("- Executando o botao com evento de click\n");
+      |             ^~~~~~
+botao.c:107:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+botao.c:109:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  109 |             printf("- Executando o botao com evento de longo click\n");
+      |             ^~~~~~
+botao.c:109:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+botao.c:111:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  111 |             printf("- Executando o botao com evento de hover\n");
+      |             ^~~~~~
+botao.c:111:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+botao.c:116:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+  116 |         exit(0);
+      |         ^~~~
+botao.c:116:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+botao.c: In function ‘DesenhaBotao’:
+botao.c:128:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  128 |     printf("-------------\n");
+      |     ^~~~~~
+botao.c:128:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

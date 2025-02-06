@@ -1,0 +1,6 @@
+==155898== Memcheck, a memory error detector
+==155898== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==155898== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==155898== Command: Resultados/Joao/completo/prog Resultados/Joao/completo/Casos/5
+==155898== Parent PID: 155897
+==155898== 
