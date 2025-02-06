@@ -1,0 +1,1 @@
+valgrind: Resultados/Joao/paciente/prog: No such file or directory
