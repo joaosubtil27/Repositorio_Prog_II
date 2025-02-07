@@ -1,9 +1,0 @@
-eleicao.c:27:1: warning: "/*" within comment [-Wcomment]
-   27 | /**
-      |  
-eleicao.c:76:1: warning: "/*" within comment [-Wcomment]
-   76 | /**
-      |  
-eleicao.c:151:1: warning: "/*" within comment [-Wcomment]
-  151 | /**
-      |  
