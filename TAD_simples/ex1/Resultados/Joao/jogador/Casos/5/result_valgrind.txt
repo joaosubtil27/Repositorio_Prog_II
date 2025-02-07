@@ -1,6 +1,0 @@
-==159748== Memcheck, a memory error detector
-==159748== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==159748== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==159748== Command: Resultados/Joao/jogador/prog Resultados/Joao/jogador/Casos/5
-==159748== Parent PID: 159747
-==159748== 
