@@ -1,1 +1,0 @@
-valgrind: Resultados/Joao/pad/prog: No such file or directory

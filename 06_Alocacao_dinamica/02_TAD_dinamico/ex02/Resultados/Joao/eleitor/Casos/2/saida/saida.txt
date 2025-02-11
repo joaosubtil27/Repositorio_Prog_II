@@ -1,0 +1,1 @@
+valgrind: Resultados/Joao/eleitor/prog: No such file or directory
