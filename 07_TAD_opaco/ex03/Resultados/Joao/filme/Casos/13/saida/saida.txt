@@ -1,0 +1,18 @@
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+
+Filme 1 nao cadastrado.
+
+~ESTOQUE~
+2 - Tomb Raider Fitas em estoque: 5
+3 - Sword Fish Fitas em estoque: 8
+
+Total de filmes alugados: 1 com custo de R$1
+
+Filme 2 - Tomb Raider Devolvido!
+
+~ESTOQUE~
+2 - Tomb Raider Fitas em estoque: 5
+3 - Sword Fish Fitas em estoque: 8
+
+Lucro total R$1

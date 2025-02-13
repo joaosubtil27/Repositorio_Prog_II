@@ -1,0 +1,62 @@
+Filme cadastrado 1 - Hannibal
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+Filme ja cadastrado no estoque
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 10
+2 - Tomb Raider Fitas em estoque: 5
+3 - Sword Fish Fitas em estoque: 8
+
+Total de filmes alugados: 3 com custo de R$8
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 9
+2 - Tomb Raider Fitas em estoque: 4
+3 - Sword Fish Fitas em estoque: 7
+
+Filme 1 - Hannibal Devolvido!
+Nao e possivel devolver o filme 1 - Hannibal.
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 10
+2 - Tomb Raider Fitas em estoque: 4
+3 - Sword Fish Fitas em estoque: 7
+
+Filme 2 - Tomb Raider Devolvido!
+
+Filme 15 nao cadastrado.
+
+Filme cadastrado 15 - Shrek
+
+Total de filmes alugados: 1 com custo de R$1
+
+Filme 5 nao cadastrado.
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 10
+2 - Tomb Raider Fitas em estoque: 5
+3 - Sword Fish Fitas em estoque: 7
+15 - Shrek Fitas em estoque: 3
+
+Total de filmes alugados: 2 com custo de R$12
+
+Total de filmes alugados: 2 com custo de R$2
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 8
+2 - Tomb Raider Fitas em estoque: 3
+3 - Sword Fish Fitas em estoque: 7
+15 - Shrek Fitas em estoque: 3
+
+Filme 2 - Tomb Raider Devolvido!
+
+Filme 2 - Tomb Raider Devolvido!
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 8
+2 - Tomb Raider Fitas em estoque: 5
+3 - Sword Fish Fitas em estoque: 7
+15 - Shrek Fitas em estoque: 3
+
+Lucro total R$19

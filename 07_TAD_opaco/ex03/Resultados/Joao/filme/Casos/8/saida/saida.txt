@@ -1,0 +1,12 @@
+Filme cadastrado 1 - Donnie Darko
+Filme cadastrado 2 - Shrek
+
+Total de filmes alugados: 1 com custo de R$1
+
+Filme 2 - Shrek Devolvido!
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 5
+2 - Shrek Fitas em estoque: 4
+
+Lucro total R$1
