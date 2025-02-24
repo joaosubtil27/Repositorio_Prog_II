@@ -1,0 +1,140 @@
+tabela.c:8:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+    8 |     tTime **times;
+      |           ^
+tabela.c:11:1: error: expected identifier or ‘(’ before ‘}’ token
+   11 | };
+      | ^
+tabela.c: In function ‘CriaTabela’:
+tabela.c:19:43: error: invalid application of ‘sizeof’ to incomplete type ‘tTabela’ {aka ‘struct _Tabela’}
+   19 |     tTabela *t = (tTabela *)malloc(sizeof(tTabela));
+      |                                           ^~~~~~~
+tabela.c:20:6: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   20 |     t->times = (tTime **)malloc(numTimes*sizeof(tTime *));
+      |      ^~
+tabela.c:22:6: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   22 |     t->qnt_times_atual = numTimes;
+      |      ^~
+tabela.c:23:6: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   23 |     t->qnt_times_alocado = 0;
+      |      ^~
+tabela.c:24:26: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   24 |     for (int i = 0; i < t->qnt_times_atual; i++)
+      |                          ^~
+tabela.c:26:10: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   26 |         t->times[i] = LeTime();
+      |          ^~
+tabela.c:27:14: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   27 |         if (t->times[i] != NULL)
+      |              ^~
+tabela.c:28:14: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   28 |             t->qnt_times_alocado++;
+      |              ^~
+tabela.c: In function ‘DesalocaTabela’:
+tabela.c:38:31: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   38 |     for (int i = 0; i < tabela->qnt_times_alocado; i++)
+      |                               ^~
+tabela.c:40:28: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   40 |         DesalocaTime(tabela->times[i]);
+      |                            ^~
+tabela.c:42:16: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   42 |     free(tabela->times);
+      |                ^~
+tabela.c: In function ‘OrdenaTabela’:
+tabela.c:53:31: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   53 |     for (int i = 0; i < tabela->qnt_times_atual - 1; i++)
+      |                               ^~
+tabela.c:55:35: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   55 |         for (int j = 0; j < tabela->qnt_times_atual - 1 - i; j++)
+      |                                   ^~
+tabela.c:56:34: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   56 |         if (DesempataTimes(tabela->times[j], tabela->times[j + 1]) == 1)
+      |                                  ^~
+tabela.c:56:52: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   56 |         if (DesempataTimes(tabela->times[j], tabela->times[j + 1]) == 1)
+      |                                                    ^~
+tabela.c:58:27: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   58 |             troca = tabela->times[j];
+      |                           ^~
+tabela.c:59:19: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   59 |             tabela->times[j] = tabela->times[j + 1];
+      |                   ^~
+tabela.c:59:38: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   59 |             tabela->times[j] = tabela->times[j + 1];
+      |                                      ^~
+tabela.c:60:19: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   60 |             tabela->times[j + 1] = troca;
+      |                   ^~
+tabela.c:52:9: warning: variable ‘valid’ set but not used [-Wunused-but-set-variable]
+   52 |     int valid = 0;
+      |         ^~~~~
+tabela.c: In function ‘ObtemTimeTabela’:
+tabela.c:71:31: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   71 |     for (int i = 0; i < tabela->qnt_times_atual; i++)
+      |                               ^~
+tabela.c:73:40: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   73 |         if (strcmp(ObtemNomeTime(tabela->times[i]), time) == 0)
+      |                                        ^~
+tabela.c:74:26: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   74 |             return tabela->times[i];
+      |                          ^~
+tabela.c: In function ‘RemoveTimeTabela’:
+tabela.c:85:31: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   85 |     for (int i = 0; i < tabela->qnt_times_atual; i++)
+      |                               ^~
+tabela.c:87:40: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   87 |         if (strcmp(ObtemNomeTime(tabela->times[i]), time) == 0)
+      |                                        ^~
+tabela.c:89:27: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   89 |             troca = tabela->times[i];
+      |                           ^~
+tabela.c:90:19: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   90 |             tabela->times[i] = tabela->times[tabela->qnt_times_atual - 1];
+      |                   ^~
+tabela.c:90:38: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   90 |             tabela->times[i] = tabela->times[tabela->qnt_times_atual - 1];
+      |                                      ^~
+tabela.c:90:52: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   90 |             tabela->times[i] = tabela->times[tabela->qnt_times_atual - 1];
+      |                                                    ^~
+tabela.c:91:19: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   91 |             tabela->times[tabela->qnt_times_atual - 1] = troca;
+      |                   ^~
+tabela.c:91:33: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   91 |             tabela->times[tabela->qnt_times_atual - 1] = troca;
+      |                                 ^~
+tabela.c:92:19: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+   92 |             tabela->qnt_times_atual--;
+      |                   ^~
+tabela.c:84:9: warning: variable ‘valid’ set but not used [-Wunused-but-set-variable]
+   84 |     int valid = 0;
+      |         ^~~~~
+tabela.c: In function ‘ImprimePremiacao’:
+tabela.c:103:15: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  103 |     if (tabela->qnt_times_atual == 0)
+      |               ^~
+tabela.c:107:20: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  107 |     else if (tabela->qnt_times_atual == 2)
+      |                    ^~
+tabela.c:109:35: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  109 |         for (int i = 0; i < tabela->qnt_times_atual; i++)
+      |                                   ^~
+tabela.c:111:53: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  111 |             printf("%dº lugar - %s: ", i + 1, tabela->times[i]);
+      |                                                     ^~
+tabela.c:122:20: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  122 |     else if (tabela->qnt_times_atual >= 3)
+      |                    ^~
+tabela.c:126:53: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  126 |             printf("%dº lugar - %s: ", i + 1, tabela->times[i]);
+      |                                                     ^~
+tabela.c: In function ‘ImprimeTabela’:
+tabela.c:150:31: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  150 |     for (int i = 0; i < tabela->qnt_times_atual; i++)
+      |                               ^~
+tabela.c:152:27: error: invalid use of incomplete typedef ‘tTabela’ {aka ‘struct _Tabela’}
+  152 |         ImprimeTime(tabela->times[i]);
+      |                           ^~
+tabela.c: In function ‘ObtemTimeTabela’:
+tabela.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+   76 | }
+      | ^

@@ -1,0 +1,20 @@
+main.c: In function ‘main’:
+main.c:6:5: error: expected declaration specifiers before ‘br’
+    6 |     br = CriaCamp();
+      |     ^~
+main.c:7:5: error: expected declaration specifiers before ‘RealizaRodada’
+    7 |     RealizaRodada(br);
+      |     ^~~~~~~~~~~~~
+main.c:8:5: error: expected declaration specifiers before ‘DesalocaCamp’
+    8 |     DesalocaCamp(br);
+      |     ^~~~~~~~~~~~
+main.c:9:5: error: expected declaration specifiers before ‘return’
+    9 |     return 0;
+      |     ^~~~~~
+main.c:10:1: error: expected declaration specifiers before ‘}’ token
+   10 | }
+      | ^
+main.c:5:10: error: declaration for parameter ‘br’ but no such parameter
+    5 |     BRA *br;
+      |          ^~
+main.c:11: error: expected ‘{’ at end of input

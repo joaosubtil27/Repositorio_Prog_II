@@ -1,0 +1,114 @@
+Insira o num de times, rodadas e premio total:
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 01 | 00 | 00 | 01 | +00
+Atletico-MG  | 01 | 00 | 00 | 01 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 01 | 00 | +00
+
+
+
+4 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Flamengo     | 04 | 01 | 00 | 01 | +00
+Atletico-MG  | 01 | 00 | 01 | 01 | +00
+Vasco        | 03 | 01 | 01 | 00 | +00
+
+
+
+4 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 05 | 01 | 00 | 02 | +00
+Palmeiras    | 03 | 01 | 02 | 00 | +00
+Vasco        | 04 | 01 | 01 | 01 | +00
+Atletico-MG  | 04 | 01 | 01 | 01 | +00
+
+
+
+4 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 05 | 01 | 01 | 02 | +00
+Vasco        | 07 | 02 | 01 | 01 | +00
+Atletico-MG  | 04 | 01 | 02 | 01 | +00
+Palmeiras    | 06 | 02 | 02 | 00 | +00
+
+
+
+4 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Vasco        | 07 | 02 | 02 | 01 | +00
+Palmeiras    | 09 | 03 | 02 | 00 | +00
+Flamengo     | 05 | 01 | 02 | 02 | +00
+Atletico-MG  | 07 | 02 | 02 | 01 | +00
+
+
+
+4 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Atletico-MG  | 07 | 02 | 02 | 01 | +00
+Flamengo     | 05 | 01 | 02 | 02 | +00
+
+
+
+4 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Atletico-MG  | 07 | 02 | 02 | 01 | +00
+Flamengo     | 05 | 01 | 02 | 02 | +00
+
+1º lugar - Atletico-MG: R$6000.00
+2º lugar - Flamengo: R$4000.00
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Atletico-MG  | 07 | 02 | 02 | 01 | +00
+Flamengo     | 05 | 01 | 02 | 02 | +00
+
+1º lugar - Atletico-MG: R$6000.00
+2º lugar - Flamengo: R$4000.00

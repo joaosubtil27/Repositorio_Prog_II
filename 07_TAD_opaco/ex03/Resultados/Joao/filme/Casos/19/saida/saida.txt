@@ -5,26 +5,27 @@ Filme cadastrado 24 - The Glass House
 Filme cadastrado 25 - Tomb Raider
 
 ~ESTOQUE~
-21 - The Last Castle Fitas em estoque: 10
-22 - Black Knight Fitas em estoque: 4
-23 - Legally Blonde Fitas em estoque: 8
-24 - The Glass House Fitas em estoque: 6
-25 - Tomb Raider Fitas em estoque: 7
+21 - The Last Castle Fitas em estoque: 5
+22 - Black Knight Fitas em estoque: 3
+23 - Legally Blonde Fitas em estoque: 3
+24 - The Glass House Fitas em estoque: 1
+25 - Tomb Raider Fitas em estoque: 2
 
-Total de filmes alugados: 3 com custo de R$11
+Total de filmes alugados: 3 com custo de R$22
 
 Filme 26 nao cadastrado.
 
-Total de filmes alugados: 3 com custo de R$6
+Total de filmes alugados: 3 com custo de R$17
 
-Total de filmes alugados: 3 com custo de R$6
+Filme 24 - The Glass House nao disponivel no estoque. Volte mais tarde.
+Total de filmes alugados: 2 com custo de R$15
 
 ~ESTOQUE~
-21 - The Last Castle Fitas em estoque: 9
-22 - Black Knight Fitas em estoque: 2
-23 - Legally Blonde Fitas em estoque: 6
-24 - The Glass House Fitas em estoque: 4
-25 - Tomb Raider Fitas em estoque: 5
+21 - The Last Castle Fitas em estoque: 4
+22 - Black Knight Fitas em estoque: 1
+23 - Legally Blonde Fitas em estoque: 1
+24 - The Glass House Fitas em estoque: 0
+25 - Tomb Raider Fitas em estoque: 0
 
 Filme cadastrado 26 - Vanilla Sky
 Filme cadastrado 27 - Atlantis
@@ -33,28 +34,28 @@ Filme cadastrado 29 - Enemy Gates
 Filme cadastrado 30 - Jimmy Neutron
 
 ~ESTOQUE~
-21 - The Last Castle Fitas em estoque: 9
-22 - Black Knight Fitas em estoque: 2
-23 - Legally Blonde Fitas em estoque: 6
-24 - The Glass House Fitas em estoque: 4
-25 - Tomb Raider Fitas em estoque: 5
-26 - Vanilla Sky Fitas em estoque: 10
-27 - Atlantis Fitas em estoque: 4
-28 - Spy Kids Fitas em estoque: 9
-29 - Enemy Gates Fitas em estoque: 27
-30 - Jimmy Neutron Fitas em estoque: 5
+21 - The Last Castle Fitas em estoque: 4
+22 - Black Knight Fitas em estoque: 1
+23 - Legally Blonde Fitas em estoque: 1
+24 - The Glass House Fitas em estoque: 0
+25 - Tomb Raider Fitas em estoque: 0
+26 - Vanilla Sky Fitas em estoque: 5
+27 - Atlantis Fitas em estoque: 2
+28 - Spy Kids Fitas em estoque: 3
+29 - Enemy Gates Fitas em estoque: 2
+30 - Jimmy Neutron Fitas em estoque: 10
 
-Total de filmes alugados: 1 com custo de R$5
+Total de filmes alugados: 1 com custo de R$10
 
 Filme 24 - The Glass House Devolvido!
 Filme 25 - Tomb Raider Devolvido!
 
-Total de filmes alugados: 3 com custo de R$13
+Total de filmes alugados: 3 com custo de R$38
 
 Filme 24 - The Glass House Devolvido!
 Filme 29 - Enemy Gates Devolvido!
 
-Filme 24 - The Glass House Devolvido!
+Nao e possivel devolver o filme 24 - The Glass House.
 Filme 25 - Tomb Raider Devolvido!
 Filme 22 - Black Knight Devolvido!
 
@@ -62,25 +63,25 @@ Filme 21 - The Last Castle Devolvido!
 Filme 22 - Black Knight Devolvido!
 Filme 23 - Legally Blonde Devolvido!
 
-Total de filmes alugados: 1 com custo de R$10
+Total de filmes alugados: 1 com custo de R$5
 
-Total de filmes alugados: 2 com custo de R$12
+Total de filmes alugados: 2 com custo de R$32
 
-Total de filmes alugados: 1 com custo de R$10
+Total de filmes alugados: 1 com custo de R$5
 
 Filme 30 - Jimmy Neutron Devolvido!
 Filme 29 - Enemy Gates Devolvido!
 
 ~ESTOQUE~
-21 - The Last Castle Fitas em estoque: 10
-22 - Black Knight Fitas em estoque: 4
-23 - Legally Blonde Fitas em estoque: 7
-24 - The Glass House Fitas em estoque: 6
-25 - Tomb Raider Fitas em estoque: 7
-26 - Vanilla Sky Fitas em estoque: 9
-27 - Atlantis Fitas em estoque: 4
-28 - Spy Kids Fitas em estoque: 9
-29 - Enemy Gates Fitas em estoque: 27
-30 - Jimmy Neutron Fitas em estoque: 2
+21 - The Last Castle Fitas em estoque: 5
+22 - Black Knight Fitas em estoque: 3
+23 - Legally Blonde Fitas em estoque: 2
+24 - The Glass House Fitas em estoque: 1
+25 - Tomb Raider Fitas em estoque: 2
+26 - Vanilla Sky Fitas em estoque: 4
+27 - Atlantis Fitas em estoque: 2
+28 - Spy Kids Fitas em estoque: 3
+29 - Enemy Gates Fitas em estoque: 2
+30 - Jimmy Neutron Fitas em estoque: 7
 
-Lucro total R$35
+Lucro total R$111

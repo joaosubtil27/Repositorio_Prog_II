@@ -1,0 +1,1856 @@
+Insira o num de times, rodadas e premio total:
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 00 | 00 | 01 | 00 | +00
+Santos       | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 01 | 00 | +00
+Palmeiras    | 00 | 00 | 00 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Remo         | 03 | 01 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 0
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Este time nao existe!
+Este time nao existe!
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 03 | 01 | 00 | 00 | +00
+Remo         | 03 | 01 | 00 | 00 | +00
+Flamengo     | 00 | 00 | 01 | 00 | +00
+Vasco        | 00 | 00 | 01 | 00 | +00
+Palmeiras    | 00 | 00 | 00 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 03 | 01 | 01 | 00 | +00
+Remo         | 03 | 01 | 00 | 00 | +00
+Flamengo     | 03 | 01 | 01 | 00 | +00
+Vasco        | 00 | 00 | 02 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 2
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Este time nao existe!
+Este time nao existe!
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 03 | 01 | 01 | 00 | +00
+Remo         | 03 | 01 | 00 | 00 | +00
+Flamengo     | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 02 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 4
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Este time nao existe!
+Este time nao existe!
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 03 | 01 | 01 | 00 | +00
+Remo         | 03 | 01 | 00 | 00 | +00
+Flamengo     | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 02 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+
+
+8 6
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Este time nao existe!
+Este time nao existe!
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 00 | 00 | +00
+Vasco        | 00 | 00 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 00 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Santos       | 06 | 02 | 01 | 00 | +00
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Santos: R$250000.00
+2º lugar - Flamengo: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+
+
+8 8
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Este time nao existe!
+Este time nao existe!
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+
+
+8 10
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 09 | 03 | 01 | 00 | +00
+Santos       | 06 | 02 | 01 | 00 | +00
+Remo         | 03 | 01 | 01 | 00 | +00
+Palmeiras    | 03 | 01 | 01 | 00 | +00
+Vasco        | 03 | 01 | 03 | 00 | +00
+Rio-Branco   | 00 | 00 | 01 | 00 | +00
+Paysandu     | 00 | 00 | 00 | 00 | +00
+Desportiva   | 00 | 00 | 00 | 00 | +00
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Santos: R$150000.00
+3º lugar - Remo: R$100000.00

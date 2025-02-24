@@ -1,0 +1,31 @@
+/usr/bin/ld: Resultados/Joao/time/brasileirao.o: in function `RealizaRodada':
+brasileirao.c:(.text+0x11a): undefined reference to `AtualizaGolsMarcados'
+/usr/bin/ld: brasileirao.c:(.text+0x12b): undefined reference to `AtualizaGolsSofridos'
+/usr/bin/ld: brasileirao.c:(.text+0x13c): undefined reference to `AtualizaGolsMarcados'
+/usr/bin/ld: brasileirao.c:(.text+0x14d): undefined reference to `AtualizaGolsSofridos'
+/usr/bin/ld: brasileirao.c:(.text+0x163): undefined reference to `AtualizaVitorias'
+/usr/bin/ld: brasileirao.c:(.text+0x16f): undefined reference to `AtualizaDerrotas'
+/usr/bin/ld: brasileirao.c:(.text+0x187): undefined reference to `AtualizaVitorias'
+/usr/bin/ld: brasileirao.c:(.text+0x193): undefined reference to `AtualizaDerrotas'
+/usr/bin/ld: brasileirao.c:(.text+0x1a1): undefined reference to `AtualizaEmpates'
+/usr/bin/ld: brasileirao.c:(.text+0x1ad): undefined reference to `AtualizaEmpates'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `CriaTabela':
+tabela.c:(.text+0x6f): undefined reference to `LeTime'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `DesalocaTabela':
+tabela.c:(.text+0xbf): undefined reference to `DesalocaTime'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `OrdenaTabela':
+tabela.c:(.text+0x150): undefined reference to `DesempataTimes'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `ObtemTimeTabela':
+tabela.c:(.text+0x22e): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `RemoveTimeTabela':
+tabela.c:(.text+0x2b5): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: tabela.c:(.text+0x307): undefined reference to `DesalocaTime'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `ImprimePremiacao':
+tabela.c:(.text+0x3c9): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: tabela.c:(.text+0x415): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: tabela.c:(.text+0x461): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: tabela.c:(.text+0x4be): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: tabela.c:(.text+0x50a): undefined reference to `ObtemNomeTime'
+/usr/bin/ld: Resultados/Joao/time/tabela.o: in function `ImprimeTabela':
+tabela.c:(.text+0x5ab): undefined reference to `ImprimeTime'
+collect2: error: ld returned 1 exit status

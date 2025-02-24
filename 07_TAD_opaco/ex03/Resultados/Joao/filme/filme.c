@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_CARACTERES 20
-
 struct Filme
 {
     int codigo;
@@ -21,9 +19,10 @@ struct Filme
  */
 tFilme *CriarFilme()
 {
-    tFilme *f = (tFilme *)malloc(sizeof(struct Filme));
+    tFilme *f = (tFilme *)malloc(sizeof(tFilme));
     f->qtd_estoque = 0;
     f->qtd_alugado = 0;
+    f->valor = 0;
     return f;
 }
 
@@ -36,8 +35,9 @@ void LeFilme(tFilme *filme, int codigo)
 {
 
     filme->codigo = codigo;
+    scanf("%d,", filme->codigo);
     scanf("%[^,],", filme->nome);
-    scanf("%d,%d\n", &filme->qtd_estoque, &filme->valor);
+    scanf("%d,%d\n", &filme->valor, &filme->qtd_estoque);
 }
 
 /**
