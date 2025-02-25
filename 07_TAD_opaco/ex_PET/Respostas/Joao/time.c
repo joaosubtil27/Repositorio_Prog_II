@@ -7,8 +7,8 @@
 #define MAX_TIME_NOME 33
 
 struct _Time
-    //{
-    char nome[MAX_TIME_NOME];
+{
+char nome[MAX_TIME_NOME];
 int vitorias;
 int partidas;
 int derrotas;

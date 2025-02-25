@@ -1,6 +1,8 @@
 #include "time.h"
 #include "tabela.h"
 #include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include "brasileirao.h"
 
 #define MAX_TIMES 20
@@ -23,7 +25,7 @@ BRA *CriaCamp()
     BRA *c = (BRA *)malloc(sizeof(BRA));
 
     printf("Insira o num de times, rodadas e premio total:\n");
-    scanf("%d %d %d", &c->qnt_times_entram, &c->qnt_partidas, &c->premio);
+    scanf("%d %d %d\n", &c->qnt_times_entram, &c->qnt_partidas, &c->premio);
     c->tabela_jogo = CriaTabela(c->qnt_times_entram);
     c->qnt_times_sairam = 0;
     return c;
@@ -35,40 +37,45 @@ BRA *CriaCamp()
 void RealizaRodada(BRA *br)
 {
     int gols1, gols2;
-    char time1[MAX_TIME_NOME], time2[MAX_TIME_NOME];
+    char nome1[MAX_TIME_NOME], nome2[MAX_TIME_NOME];
+    tTime *time1, *time2;
 
-    for (int i = 0; i < 2; i++)
+    scanf("\n%s %d x %d %s", nome1, &gols1, &gols2, nome2);
+    time1 = ObtemTimeTabela(br->tabela_jogo, nome1);
+    time2 = ObtemTimeTabela(br->tabela_jogo, nome2);
+    if (time1 != NULL && time2 != NULL)
     {
-        scanf("%s %d x %d %s\n", time1, &gols1, &gols2, time2);
-        AtualizaGolsMarcados(ObtemTimeTabela(br->tabela_jogo, time1), gols1);
-        AtualizaGolsMarcados(ObtemTimeTabela(br->tabela_jogo, time2), gols2);
 
-        AtualizaGolsSofridos(ObtemTimeTabela(br->tabela_jogo, time1), gols1);
-        AtualizaGolsSofridos(ObtemTimeTabela(br->tabela_jogo, time2), gols2);
+        AtualizaGolsMarcados(time1, gols1);
+        AtualizaGolsMarcados(time2, gols2);
+
+        AtualizaGolsSofridos(time1, gols2);
+        AtualizaGolsSofridos(time2, gols1);
 
         if (gols1 > gols2)
         {
-            AtualizaVitorias(ObtemTimeTabela(br->tabela_jogo, time1));
-            AtualizaDerrotas(ObtemTimeTabela(br->tabela_jogo, time2));
+            AtualizaVitorias(time1);
+            AtualizaDerrotas(time2);
         }
         else if (gols2 > gols1)
         {
-            AtualizaVitorias(ObtemTimeTabela(br->tabela_jogo, time2));
-            AtualizaDerrotas(ObtemTimeTabela(br->tabela_jogo, time1));
+            AtualizaVitorias(time2);
+            AtualizaDerrotas(time1);
         }
         else if (gols1 == gols2)
         {
-            AtualizaEmpates(ObtemTimeTabela(br->tabela_jogo, time1));
-            AtualizaEmpates(ObtemTimeTabela(br->tabela_jogo, time2));
+            AtualizaEmpates(time1);
+            AtualizaEmpates(time2);
         }
     }
+    OrdenaTabela(br->tabela_jogo);
 }
 
 /**
  * @brief Imprime o menu e trata cada opcao.
  */
 void RealizaCamp(BRA *br)
-{
+{   int partidas_realizadas=0;
     char op;
     while (1)
     {
@@ -77,28 +84,31 @@ void RealizaCamp(BRA *br)
         printf("R - Retirar 2 times e seguir\n");
         printf("F - Finalizar\n\n");
 
-        scanf("%c\n", &op);
+        scanf("\n%c", &op);
         if (op == 'C')
         {
-            RealizaRodada(br);
+            for (int i = 0; i < (br->qnt_times_entram - br->qnt_times_sairam) / 2; i++)
+            {
+                RealizaRodada(br);
+            }
             ImprimeTabela(br->tabela_jogo);
+            partidas_realizadas++;
         }
         else if (op == 'R')
         {
+            printf("Times a serem retirados:\n");
             RemoveTimesCamp(br);
-            ImprimeTabela(br->tabela_jogo);
         }
-        else if (op == 'F')
+        if (op == 'F' || partidas_realizadas == br->qnt_partidas)
         {
-            FinalizaCamp(br);
+            printf("Esta foi a tabela final:\n");
+            ImprimeTabela(br->tabela_jogo);
             break;
         }
         if (br->qnt_times_entram == br->qnt_times_sairam)
         {
-            FinalizaCamp(br);
+            break;
         }
-        printf("\n\n%d %d\n\n", br->qnt_times_entram, br->qnt_times_sairam);
-        OrdenaTabela(br->tabela_jogo);
     }
 }
 
@@ -108,10 +118,16 @@ void RealizaCamp(BRA *br)
 void RemoveTimesCamp(BRA *br)
 {
     char time1[MAX_TIME_NOME], time2[MAX_TIME_NOME];
-    scanf("%s %s\n", time1, time2);
+    scanf("\n%s %s", time1, time2);
     RemoveTimeTabela(br->tabela_jogo, time1);
     RemoveTimeTabela(br->tabela_jogo, time2);
+    printf("Os times %s e %s se retiraram do campeonato\n", time1, time2);
     br->qnt_times_sairam += 2;
+    if (br->qnt_times_entram - br->qnt_times_sairam > 1)
+    {
+        RealizaRodada(br);
+        ImprimeTabela(br->tabela_jogo);
+    }
 }
 
 /**
@@ -119,6 +135,7 @@ void RemoveTimesCamp(BRA *br)
  */
 void DesalocaCamp(BRA *br)
 {
+    DesalocaTabela(br->tabela_jogo);
     free(br);
 }
 
@@ -127,7 +144,7 @@ void DesalocaCamp(BRA *br)
  */
 void FinalizaCamp(BRA *br)
 {
-    ImprimeTabela(br->tabela_jogo);
     ImprimePremiacao(br->tabela_jogo, br->premio);
-    // DesalocaCamp(br);
+    printf("Fim do campeonato\n");
+    DesalocaCamp(br);
 }

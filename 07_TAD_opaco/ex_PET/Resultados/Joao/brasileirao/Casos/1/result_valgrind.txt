@@ -1,25 +1,15 @@
-==209530== Memcheck, a memory error detector
-==209530== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==209530== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==209530== Command: Resultados/Joao/brasileirao/prog Resultados/Joao/brasileirao/Casos/1
-==209530== Parent PID: 209529
-==209530== 
-==209530== 
-==209530== HEAP SUMMARY:
-==209530==     in use at exit: 184 bytes in 5 blocks
-==209530==   total heap usage: 9 allocs, 4 frees, 8,488 bytes allocated
-==209530== 
-==209530== 184 (24 direct, 160 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
-==209530==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==209530==    by 0x10925E: CriaCamp (in /home/jaasubtil/Prog II/Repositorio_ProgII/07_TAD_opaco/ex_PET/Resultados/Joao/brasileirao/prog)
-==209530==    by 0x10972C: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/07_TAD_opaco/ex_PET/Resultados/Joao/brasileirao/prog)
-==209530== 
-==209530== LEAK SUMMARY:
-==209530==    definitely lost: 24 bytes in 1 blocks
-==209530==    indirectly lost: 160 bytes in 4 blocks
-==209530==      possibly lost: 0 bytes in 0 blocks
-==209530==    still reachable: 0 bytes in 0 blocks
-==209530==         suppressed: 0 bytes in 0 blocks
-==209530== 
-==209530== For lists of detected and suppressed errors, rerun with: -s
-==209530== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==282776== Memcheck, a memory error detector
+==282776== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==282776== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==282776== Command: Resultados/Joao/brasileirao/prog Resultados/Joao/brasileirao/Casos/1
+==282776== Parent PID: 282775
+==282776== 
+==282776== 
+==282776== HEAP SUMMARY:
+==282776==     in use at exit: 0 bytes in 0 blocks
+==282776==   total heap usage: 9 allocs, 9 frees, 8,488 bytes allocated
+==282776== 
+==282776== All heap blocks were freed -- no leaks are possible
+==282776== 
+==282776== For lists of detected and suppressed errors, rerun with: -s
+==282776== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,10 +1,10 @@
 #include "brasileirao.h"
 #include <stdlib.h>
 int main()
-//{
+{
     BRA *br;
     br = CriaCamp();
-    RealizaRodada(br);
-    DesalocaCamp(br);
+    RealizaCamp(br);
+    FinalizaCamp(br);
     return 0;
 }

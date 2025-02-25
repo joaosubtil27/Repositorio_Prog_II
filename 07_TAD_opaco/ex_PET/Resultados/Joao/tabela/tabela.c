@@ -4,7 +4,7 @@
 #include <string.h>
 
 struct _Tabela
-//{
+{
     tTime **times;
     int qnt_times_atual;
     int qnt_times_alocado;
@@ -49,7 +49,6 @@ void DesalocaTabela(tTabela *tabela)
 void OrdenaTabela(tTabela *tabela)
 {
     tTime *troca;
-    int valid = 0;
     for (int i = 0; i < tabela->qnt_times_atual - 1; i++)
     {
         for (int j = 0; j < tabela->qnt_times_atual - 1 - i; j++)
@@ -58,7 +57,6 @@ void OrdenaTabela(tTabela *tabela)
             troca = tabela->times[j];
             tabela->times[j] = tabela->times[j + 1];
             tabela->times[j + 1] = troca;
-            valid = 1;
         }
     }
 }
@@ -81,7 +79,6 @@ tTime *ObtemTimeTabela(tTabela *tabela, char *time)
 void RemoveTimeTabela(tTabela *tabela, char *time)
 {
     tTime *troca;
-    int valid = 0;
     for (int i = 0; i < tabela->qnt_times_atual; i++)
     {
         if (strcmp(ObtemNomeTime(tabela->times[i]), time) == 0)
@@ -90,7 +87,6 @@ void RemoveTimeTabela(tTabela *tabela, char *time)
             tabela->times[i] = tabela->times[tabela->qnt_times_atual - 1];
             tabela->times[tabela->qnt_times_atual - 1] = troca;
             tabela->qnt_times_atual--;
-            valid = 1;
         }
     }
 }
@@ -108,7 +104,7 @@ void ImprimePremiacao(tTabela *tabela, float valorPremio)
     {
         for (int i = 0; i < tabela->qnt_times_atual; i++)
         {
-            printf("%dº lugar - %s: ", i + 1, tabela->times[i]);
+            printf("%dº lugar - %s: ", i + 1, ObtemNomeTime(tabela->times[i]));
             if (i == 0)
             {
                 printf("R$%.2f\n", valorPremio * 0.6);
@@ -123,7 +119,7 @@ void ImprimePremiacao(tTabela *tabela, float valorPremio)
     {
         for (int i = 0; i < 3; i++)
         {
-            printf("%dº lugar - %s: ", i + 1, tabela->times[i]);
+            printf("%dº lugar - %s: ", i + 1, ObtemNomeTime(tabela->times[i]));
             if (i == 0)
             {
                 printf("R$%.2f\n", valorPremio * 0.5);
