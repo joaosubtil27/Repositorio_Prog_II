@@ -68,7 +68,6 @@ void RealizaRodada(BRA *br)
             AtualizaEmpates(time2);
         }
     }
-    OrdenaTabela(br->tabela_jogo);
 }
 
 /**
@@ -91,6 +90,7 @@ void RealizaCamp(BRA *br)
             {
                 RealizaRodada(br);
             }
+            OrdenaTabela(br->tabela_jogo);
             ImprimeTabela(br->tabela_jogo);
             partidas_realizadas++;
         }
@@ -102,6 +102,7 @@ void RealizaCamp(BRA *br)
         if (op == 'F' || partidas_realizadas == br->qnt_partidas)
         {
             printf("Esta foi a tabela final:\n");
+            OrdenaTabela(br->tabela_jogo);
             ImprimeTabela(br->tabela_jogo);
             break;
         }
@@ -126,6 +127,7 @@ void RemoveTimesCamp(BRA *br)
     if (br->qnt_times_entram - br->qnt_times_sairam > 1)
     {
         RealizaRodada(br);
+        OrdenaTabela(br->tabela_jogo);
         ImprimeTabela(br->tabela_jogo);
     }
 }
@@ -143,7 +145,7 @@ void DesalocaCamp(BRA *br)
  * @brief Imprime a tabela final, premiacao e desaloca o campeonato.
  */
 void FinalizaCamp(BRA *br)
-{
+{   OrdenaTabela(br->tabela_jogo);
     ImprimePremiacao(br->tabela_jogo, br->premio);
     printf("Fim do campeonato\n");
     DesalocaCamp(br);

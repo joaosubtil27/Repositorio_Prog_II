@@ -1,4 +1,0 @@
-tabela.c: In function ‘ObtemTimeTabela’:
-tabela.c:74:1: warning: control reaches end of non-void function [-Wreturn-type]
-   74 | }
-      | ^
