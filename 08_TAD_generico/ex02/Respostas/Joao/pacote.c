@@ -30,7 +30,7 @@ tPacote *CriaPacote(Type type, int numElem)
         p->vetor = (int *)malloc(p->tam * sizeof(int));
         break;
     case CHAR:
-        p->vetor = (char *)malloc((p->tam +1)* sizeof(char));
+        p->vetor = (char *)malloc((p->tam+1)* sizeof(char));
         break;
     }
     return p;

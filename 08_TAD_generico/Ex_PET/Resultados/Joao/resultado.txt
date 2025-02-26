@@ -1,0 +1,33 @@
+Arquivos Esperados Corretos: 11 de 11
+Pastas Compiladas Corretamente: 7 de 7 
+Pastas Linkadas Corretamente: 2 de 7
+Teste livro
+  - Resultados corretos: 7 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de Joao para o teste livro: 1.00
+Teste musica
+  - Resultados corretos: 7 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de Joao para o teste musica: 1.00
+Teste pintura
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Joao para o teste pintura: 0
+Teste midia
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Joao para o teste midia: 0
+Teste roteiro
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Joao para o teste roteiro: 0
+Teste completo
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Joao para o teste completo: 0
+Teste main
+  - Resultados corretos: 0 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Joao para o teste main: 0
+Nota de Joao: 0+(1.00)+(0)+(0)+(1.00)+(0)+(0)+(0)
+Nota de Joao: 2.00

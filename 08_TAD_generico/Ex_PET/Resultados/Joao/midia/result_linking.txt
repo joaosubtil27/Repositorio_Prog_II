@@ -1,0 +1,7 @@
+/usr/bin/ld: Resultados/Joao/midia/roteiro.o: in function `roteiro_inserir_midia':
+roteiro.c:(.text+0xab): undefined reference to `midia_construct'
+/usr/bin/ld: Resultados/Joao/midia/roteiro.o: in function `roteiro_imprimir_midias':
+roteiro.c:(.text+0x123): undefined reference to `midia_print'
+/usr/bin/ld: Resultados/Joao/midia/roteiro.o: in function `roteiro_destroy':
+roteiro.c:(.text+0x190): undefined reference to `midia_destroy'
+collect2: error: ld returned 1 exit status

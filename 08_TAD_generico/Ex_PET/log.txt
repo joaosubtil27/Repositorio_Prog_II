@@ -1,0 +1,406 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Joao
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Joao:
+ - Diretório Resultados/Joao criado com sucesso!
+ - Diretório Resultados/Joao/livro criado com sucesso!
+ - Diretório Resultados/Joao/musica criado com sucesso!
+ - Diretório Resultados/Joao/pintura criado com sucesso!
+ - Diretório Resultados/Joao/midia criado com sucesso!
+ - Diretório Resultados/Joao/roteiro criado com sucesso!
+ - Diretório Resultados/Joao/completo criado com sucesso!
+ - Diretório Resultados/Joao/main criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Joao/livro.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/livro.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/midia.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/midia.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/musica.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/musica.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/pintura.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/pintura.h' encontrado!
+ - Arquivo esperado 'Respostas/Joao/roteiro.c' encontrado!
+ - Arquivo esperado 'Respostas/Joao/roteiro.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta livro:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/livro
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/livro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/livro
+ - Removendo o livro.o do professor da pasta Resultados/Joao/livro
+ - Copiando o Respostas/Joao/livro.c do aluno para a pasta Resultados/Joao/livro
+ - Pasta musica:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/musica
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/musica
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/musica
+ - Removendo o musica.o do professor da pasta Resultados/Joao/musica
+ - Copiando o Respostas/Joao/musica.c do aluno para a pasta Resultados/Joao/musica
+ - Pasta pintura:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/pintura
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/pintura
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/pintura
+ - Removendo o pintura.o do professor da pasta Resultados/Joao/pintura
+ - Copiando o Respostas/Joao/pintura.c do aluno para a pasta Resultados/Joao/pintura
+ - Pasta midia:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/midia
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/midia
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/midia
+ - Removendo o midia.o do professor da pasta Resultados/Joao/midia
+ - Copiando o Respostas/Joao/midia.c do aluno para a pasta Resultados/Joao/midia
+ - Pasta roteiro:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/roteiro
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/roteiro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/roteiro
+ - Removendo o roteiro.o do professor da pasta Resultados/Joao/roteiro
+ - Copiando o Respostas/Joao/roteiro.c do aluno para a pasta Resultados/Joao/roteiro
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/livro.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/livro.h do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/main.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/midia.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/midia.h do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/musica.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/musica.h do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/pintura.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/pintura.h do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/roteiro.c do aluno para a pasta Resultados/Joao/completo
+ - Copiando os Respostas/Joao/roteiro.h do aluno para a pasta Resultados/Joao/completo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Joao/main
+ - Copiando os Includes/livro.h Includes/midia.h Includes/musica.h Includes/pintura.h Includes/roteiro.h do professor para a pasta Resultados/Joao/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Joao/main
+ - Removendo o main.o do professor da pasta Resultados/Joao/main
+ - Copiando o Respostas/Joao/main.c do aluno para a pasta Resultados/Joao/main
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta livro ok!
+ - Arquivo de output gerado: Resultados/Joao/livro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta musica ok!
+ - Arquivo de output gerado: Resultados/Joao/musica/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pintura ok!
+ - Arquivo de output gerado: Resultados/Joao/pintura/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta midia ok!
+ - Arquivo de output gerado: Resultados/Joao/midia/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta roteiro ok!
+ - Arquivo de output gerado: Resultados/Joao/roteiro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Joao/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Joao/main/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta livro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) livro/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Joao/livro/result_linking.txt
+ - Pasta musica:
+ - Gerando o binário prog linkando com o(s) arquivo(s) musica/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Joao/musica/result_linking.txt
+ - Pasta pintura:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pintura/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/pintura/result_linking.txt
+ - Pasta midia:
+ - Gerando o binário prog linkando com o(s) arquivo(s) midia/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/midia/result_linking.txt
+ - Pasta roteiro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) roteiro/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/roteiro/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/completo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Joao/main/result_linking.txt
+ - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta livro / Caso 1:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 2:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 3:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 4:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 5:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 6:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 48, frees: 48, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta livro / Caso 7:
+ - Arquivo de output gerado: Resultados/Joao/livro/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta livro (máximo 1.0) - 70.00 de 70.0 - 100.00% de 1.0: 1.00.
+ -----
+ - Pasta musica / Caso 1:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 2:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 3:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 4:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 5:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 6:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 70, frees: 70, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta musica / Caso 7:
+ - Arquivo de output gerado: Resultados/Joao/musica/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta musica (máximo 1.0) - 70.00 de 70.0 - 100.00% de 1.0: 1.00.
+ -----
+ - Pasta pintura / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta pintura / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta pintura (máximo 1.0) - 0 de 70.0 - 0% de 1.0: 0.
+ -----
+ - Pasta midia / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta midia / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta midia (máximo 3.0) - 0 de 70.0 - 0% de 3.0: 0.
+ -----
+ - Pasta roteiro / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta roteiro / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta roteiro (máximo 3.0) - 0 de 70.0 - 0% de 3.0: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta completo (máximo 0.5) - 0 de 70.0 - 0% de 0.5: 0.
+ -----
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10.0 pontos.
+ - Nota para a pasta main (máximo 0.5) - 0 de 70.0 - 0% de 0.5: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Joao
+ - Arquivos Esperados Corretos: 11 de 11
+ - Pastas Compiladas Corretamente: 7 de 7 
+ - Pastas Linkadas Corretamente: 2 de 7
+ - Teste livro
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Joao para o teste livro: 1.00
+ - Teste musica
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Joao para o teste musica: 1.00
+ - Teste pintura
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Joao para o teste pintura: 0
+ - Teste midia
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Joao para o teste midia: 0
+ - Teste roteiro
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Joao para o teste roteiro: 0
+ - Teste completo
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Joao para o teste completo: 0
+ - Teste main
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de Joao para o teste main: 0
+ - Nota de Joao: 0+(1.00)+(0)+(0)+(1.00)+(0)+(0)+(0)
+ - Nota de Joao: 2.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
