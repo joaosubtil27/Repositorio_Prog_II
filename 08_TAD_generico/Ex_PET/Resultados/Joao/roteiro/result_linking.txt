@@ -1,8 +1,0 @@
-/usr/bin/ld: Resultados/Joao/roteiro/main.o: in function `main':
-main.c:(.text+0x21): undefined reference to `roteiro_construct'
-/usr/bin/ld: main.c:(.text+0x9e): undefined reference to `roteiro_inserir_midia'
-/usr/bin/ld: main.c:(.text+0xda): undefined reference to `roteiro_inserir_midia'
-/usr/bin/ld: main.c:(.text+0x113): undefined reference to `roteiro_inserir_midia'
-/usr/bin/ld: main.c:(.text+0x140): undefined reference to `roteiro_imprimir_midias'
-/usr/bin/ld: main.c:(.text+0x14c): undefined reference to `roteiro_destroy'
-collect2: error: ld returned 1 exit status

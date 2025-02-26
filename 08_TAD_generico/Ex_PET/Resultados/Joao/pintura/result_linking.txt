@@ -1,5 +1,0 @@
-/usr/bin/ld: Resultados/Joao/pintura/main.o: in function `main':
-main.c:(.text+0x79): undefined reference to `pintura_construct'
-/usr/bin/ld: main.c:(.text+0x8c): undefined reference to `pintura_destroy'
-/usr/bin/ld: main.c:(.text+0x96): undefined reference to `pintura_print'
-collect2: error: ld returned 1 exit status
