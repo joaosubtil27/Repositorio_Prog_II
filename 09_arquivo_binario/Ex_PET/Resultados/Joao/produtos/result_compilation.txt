@@ -1,0 +1,10 @@
+produtos.c: In function ‘cadastrarProduto’:
+produtos.c:13:9: warning: unused variable ‘quantidade’ [-Wunused-variable]
+   13 |     int quantidade;
+      |         ^~~~~~~~~~
+produtos.c:12:11: warning: unused variable ‘preco’ [-Wunused-variable]
+   12 |     float preco;
+      |           ^~~~~
+produtos.c:11:10: warning: unused variable ‘nome’ [-Wunused-variable]
+   11 |     char nome[50];
+      |          ^~~~

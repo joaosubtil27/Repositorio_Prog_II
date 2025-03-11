@@ -1,0 +1,4 @@
+registro.c: In function ‘leRegistro’:
+registro.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 | Jogador j;
+      |         ^

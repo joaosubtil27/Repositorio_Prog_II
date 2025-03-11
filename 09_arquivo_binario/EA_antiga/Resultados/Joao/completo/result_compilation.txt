@@ -1,0 +1,8 @@
+registro.c: In function ‘leRegistro’:
+registro.c:17:9: warning: unused variable ‘j’ [-Wunused-variable]
+   17 | Jogador j;
+      |         ^
+servidor.c: In function ‘buscaDadosJogadorServidor’:
+servidor.c:38:9: warning: unused variable ‘valid’ [-Wunused-variable]
+   38 |     int valid = 0;
+      |         ^~~~~

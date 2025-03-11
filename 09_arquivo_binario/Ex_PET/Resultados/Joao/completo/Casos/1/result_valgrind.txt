@@ -1,0 +1,45 @@
+==110580== Memcheck, a memory error detector
+==110580== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==110580== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==110580== Command: Resultados/Joao/completo/prog Resultados/Joao/completo/Casos/1
+==110580== Parent PID: 110579
+==110580== 
+==110580== Use of uninitialised value of size 8
+==110580==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110580==    by 0x10956E: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580==    by 0x1093E2: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580== 
+==110580== Invalid write of size 1
+==110580==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110580==    by 0x10956E: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580==    by 0x1093E2: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==110580== 
+==110580== 
+==110580== Process terminating with default action of signal 11 (SIGSEGV)
+==110580==  Access not within mapped region at address 0x0
+==110580==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110580==    by 0x10956E: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580==    by 0x1093E2: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/completo/prog)
+==110580==  If you believe this happened as a result of a stack
+==110580==  overflow in your program's main thread (unlikely but
+==110580==  possible), you can try to increase the size of the
+==110580==  main thread stack using the --main-stacksize= flag.
+==110580==  The main thread stack size used in this run was 8388608.
+==110580== 
+==110580== HEAP SUMMARY:
+==110580==     in use at exit: 8,200 bytes in 3 blocks
+==110580==   total heap usage: 4 allocs, 1 frees, 8,208 bytes allocated
+==110580== 
+==110580== LEAK SUMMARY:
+==110580==    definitely lost: 0 bytes in 0 blocks
+==110580==    indirectly lost: 0 bytes in 0 blocks
+==110580==      possibly lost: 0 bytes in 0 blocks
+==110580==    still reachable: 8,200 bytes in 3 blocks
+==110580==         suppressed: 0 bytes in 0 blocks
+==110580== Reachable blocks (those to which a pointer was found) are not shown.
+==110580== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==110580== 
+==110580== Use --track-origins=yes to see where uninitialised values come from
+==110580== For lists of detected and suppressed errors, rerun with: -s
+==110580== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

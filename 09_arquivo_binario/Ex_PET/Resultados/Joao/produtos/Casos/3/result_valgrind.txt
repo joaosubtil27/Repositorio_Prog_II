@@ -1,0 +1,45 @@
+==109816== Memcheck, a memory error detector
+==109816== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==109816== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==109816== Command: Resultados/Joao/produtos/prog Resultados/Joao/produtos/Casos/3
+==109816== Parent PID: 109815
+==109816== 
+==109816== Use of uninitialised value of size 8
+==109816==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==109816==    by 0x1095DA: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816==    by 0x10941D: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816== 
+==109816== Invalid write of size 1
+==109816==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==109816==    by 0x1095DA: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816==    by 0x10941D: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==109816== 
+==109816== 
+==109816== Process terminating with default action of signal 11 (SIGSEGV)
+==109816==  Access not within mapped region at address 0x0
+==109816==    at 0x484EE7C: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==109816==    by 0x1095DA: cadastrarProduto (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816==    by 0x10941D: main (in /home/jaasubtil/Prog II/Repositorio_ProgII/09_arquivo_binario/Ex_PET/Resultados/Joao/produtos/prog)
+==109816==  If you believe this happened as a result of a stack
+==109816==  overflow in your program's main thread (unlikely but
+==109816==  possible), you can try to increase the size of the
+==109816==  main thread stack using the --main-stacksize= flag.
+==109816==  The main thread stack size used in this run was 8388608.
+==109816== 
+==109816== HEAP SUMMARY:
+==109816==     in use at exit: 8,200 bytes in 3 blocks
+==109816==   total heap usage: 4 allocs, 1 frees, 8,280 bytes allocated
+==109816== 
+==109816== LEAK SUMMARY:
+==109816==    definitely lost: 0 bytes in 0 blocks
+==109816==    indirectly lost: 0 bytes in 0 blocks
+==109816==      possibly lost: 0 bytes in 0 blocks
+==109816==    still reachable: 8,200 bytes in 3 blocks
+==109816==         suppressed: 0 bytes in 0 blocks
+==109816== Reachable blocks (those to which a pointer was found) are not shown.
+==109816== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==109816== 
+==109816== Use --track-origins=yes to see where uninitialised values come from
+==109816== For lists of detected and suppressed errors, rerun with: -s
+==109816== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
