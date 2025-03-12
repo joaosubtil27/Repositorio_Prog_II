@@ -11,18 +11,31 @@ void cadastrarProduto(Produto **vetorProdutos, int *tamanho, int *alocado)
     char nome[50];
     float preco;
     int quantidade;
-    Produto p;
-    scanf("%s %f %d", p.nome, &p.preco, &p.quantidade);
-
-
-    vetorProdutos = (Produto **)realloc(vetorProdutos, (*tamanho + 1) * sizeof(Produto *));
-    strcpy(vetorProdutos[*tamanho]->nome, p.nome);
-    vetorProdutos[*tamanho]->preco = p.preco;
-    vetorProdutos[*tamanho]->quantidade = p.quantidade;
-
-    (*tamanho)++;
-    (*alocado)++;
-    exibirLista(vetorProdutos, *tamanho);
+    if (*tamanho == *alocado)
+    {
+        *alocado += 5;
+        vetorProdutos = (Produto **)realloc(vetorProdutos, (*tamanho + 1) * sizeof(Produto *));
+    }
+    Produto *p = (Produto *)malloc(sizeof(Produto));
+    scanf("%s %f %d", p->nome, &p->preco, &p->quantidade);
+    int valid = 1;
+    for (int i = 0; i < *tamanho; i++)
+    {
+        if (strcmp(p->nome, vetorProdutos[i]->nome) == 0)
+        {
+            vetorProdutos[i]->preco = p->preco;
+            vetorProdutos[i]->quantidade += p->quantidade;
+            free(p);
+            valid = 0;
+            break;
+        }
+    }
+    if (valid == 1)
+    {
+        vetorProdutos[*tamanho] = p;
+        (*tamanho)++;
+    }
+    // exibirLista(vetorProdutos, *tamanho);
 }
 
 /**
@@ -30,13 +43,13 @@ void cadastrarProduto(Produto **vetorProdutos, int *tamanho, int *alocado)
  */
 void exibirLista(Produto **vetorProdutos, int tamanho)
 {
-    printf("Lista de produtos cadastrados:\n");
+    printf("\nLista de produtos cadastrados:\n");
     for (int i = 0; i < tamanho; i++)
     {
         printf("Produto %d:\n", i + 1);
         printf("Nome: %s\n", vetorProdutos[i]->nome);
         printf("Preco: %.2f\n", vetorProdutos[i]->preco);
-        printf("Quantidade em estoque: %d\n", vetorProdutos[i]->quantidade);
+        printf("Quantidade em estoque: %d\n\n", vetorProdutos[i]->quantidade);
     }
 }
 
@@ -45,16 +58,15 @@ void exibirLista(Produto **vetorProdutos, int tamanho)
  */
 int compararProduto(const void *a, const void *b)
 {
-    const Produto *p1 = (Produto *)a;
-    const Produto *p2 = (Produto *)b;
+    Produto *p1 = *(Produto **)a;
+    Produto *p2 = *(Produto **)b;
 
-    int diff = p1->quantidade - p2->quantidade;
-    if (diff == 0)
-    {
-        return strcmp(p1->nome, p2->nome);
-    }
+    if (p1->preco * p1->quantidade > p2->preco * p2->quantidade)
+        return -1;
+    else if (p1->preco * p1->quantidade < p2->preco * p2->quantidade)
+        return 1;
     else
-        return diff;
+        return strcmp(p1->nome, p2->nome);
 }
 
 /**
@@ -83,9 +95,19 @@ void desalocaLista(Produto **vetorProdutos, int tamanho)
 void salvarLista(Produto **vetorProdutos, int tamanho)
 {
     int tam;
-    int qnt_alocs = tamanho;
     FILE *f = fopen("produtos.bin", "wb");
-    fwrite(&qnt_alocs, sizeof(int), 1, f);
+    if (f == NULL)
+    {
+        printf("Erro ao abrir o arquivo.\n");
+        return;
+    }
+
+    if (tamanho == 0)
+    {
+        printf("Nenhum produto cadastrado.\n");
+        return;
+    }
+    fwrite(&tamanho, sizeof(int), 1, f);
     for (int i = 0; i < tamanho; i++)
     {
         tam = strlen(vetorProdutos[i]->nome) + 1;
@@ -93,6 +115,7 @@ void salvarLista(Produto **vetorProdutos, int tamanho)
         fwrite(vetorProdutos[i]->nome, sizeof(char), tam, f);
         fwrite(&vetorProdutos[i]->preco, sizeof(float), 1, f);
         fwrite(&vetorProdutos[i]->quantidade, sizeof(int), 1, f);
+        // fwrite(vetorProdutos[i], sizeof(Produto), 1, f);
     }
     fclose(f);
 }
@@ -103,16 +126,19 @@ void salvarLista(Produto **vetorProdutos, int tamanho)
 Produto **lerLista(int *tamanho, int *alocado)
 {
     int tam;
-    int qnt_alocs;
     FILE *f = fopen("produtos.bin", "rb");
-    fread(&qnt_alocs, sizeof(int), 1, f);
-    Produto **vetorProdutos = (Produto **)malloc(qnt_alocs * sizeof(Produto *));
+
+    fread(tamanho, sizeof(int), 1, f);
+    *alocado = *tamanho + 5;
+    Produto **vetorProdutos = (Produto **)malloc(*alocado * sizeof(Produto *));
     for (int i = 0; i < *tamanho; i++)
     {
+        Produto *p = (Produto *)malloc(sizeof(Produto));
         fread(&tam, sizeof(int), 1, f);
-        fread(vetorProdutos[i]->nome, sizeof(char), tam, f);
-        fread(&vetorProdutos[i]->preco, sizeof(float), 1, f);
-        fread(&vetorProdutos[i]->quantidade, sizeof(int), 1, f);
+        fread(p->nome, sizeof(char), tam, f);
+        fread(&p->preco, sizeof(float), 1, f);
+        fread(&p->quantidade, sizeof(int), 1, f);
+        vetorProdutos[i] = p;
     }
     fclose(f);
 
